@@ -1,0 +1,36 @@
+.avatar-con {
+  position: relative;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+.avatar:hover {
+  border-color: var(--primary-hover);
+}
+
+.avatar-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--danger);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  min-width: 120px;
+}
+.avatar-dropdown .logout-btn {
+  cursor: pointer;
+}

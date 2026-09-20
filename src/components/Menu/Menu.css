@@ -1,0 +1,87 @@
+.menu-links-con {
+  position: fixed;
+  right: 0;
+  z-index: 100;
+  background: var(--surface);
+  max-width: 50%;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transform: translateX(100%);
+  transition: transform 0.4s ease-in-out;
+}
+.open {
+  transform: translateX(0);
+}
+.heading {
+  margin-top: 24px;
+  columns: var(--primary);
+}
+.close-btn {
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  box-shadow: 0 0 2px rgb(0, 0, 0, 0.1);
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  color: var(--text-primary);
+  font-size: 16px;
+  padding: 6px 10px;
+  background-color: var(--background);
+  cursor: pointer;
+}
+.close-btn:hover {
+  background-color: var(--primary-soft);
+}
+.menu-links-con .link-con {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 300;
+  color: var(--text-primary);
+}
+.link-con:hover {
+  color: var(--primary-hover);
+}
+.menu-links-con button {
+  display: flex;
+  justify-content: start;
+  text-align: left;
+  background-color: var(--background);
+}
+.menu-links-con .theme-btn {
+  color: var(--text-secondary);
+  font-weight: 100;
+}
+.menu-links-con .logout-btn {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+.logout-btn:hover {
+  background-color: rgb(255, 0, 0, 0.1);
+}
+.overlay {
+  background-color: rgb(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  opacity: 0;
+  display: none;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+.overlay-open {
+  opacity: 1;
+  display: block;
+  pointer-events: auto;
+}
+
+@media (max-width: 600px) {
+  .menu-links-con {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,130 @@
+
+.not-found{
+  margin-bottom: 50px;
+}
+.not-found-section {
+  min-height: 72vh;
+  display: flex;
+  align-items: center;
+}
+
+.not-found-panel {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 20px 32px;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+  border: 3px solid #fff;
+}
+
+.not-found-icon {
+  width: 80px;
+  height: 80px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  color: var(--primary);
+  background: var(--primary-foreground);
+}
+
+.not-found-icon svg {
+  width: 52px;
+  height: 52px;
+}
+
+.not-found-code {
+  color: var(--primary);
+  font-size: 84px;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.not-found-panel h1 {
+  font-size: 38px;
+  margin-bottom: 14px;
+}
+
+.not-found-description {
+  max-width: 520px;
+  margin: 0 auto 32px;
+  color: var(--text-muted);
+  font-size: 17px;
+}
+
+.not-found-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.not-found-primary,
+.not-found-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 700;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.not-found-primary {
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--primary-foreground);
+}
+
+.not-found-primary:hover {
+  box-shadow: var(--shadow-glow);
+}
+
+.not-found-secondary {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+
+.not-found-secondary:hover {
+  border-color: var(--primary-hover);
+  color: var(--text-secondary);
+}
+
+@media (max-width: 600px) {
+  .not-found-section {
+    min-height: 68vh;
+  }
+
+  .not-found-panel {
+    padding: 44px 20px;
+  }
+
+  .not-found-code {
+    font-size: 64px;
+  }
+
+  .not-found-panel h1 {
+    font-size: 30px;
+  }
+
+  .not-found-description {
+    font-size: 15px;
+  }
+
+  .not-found-primary,
+  .not-found-secondary {
+    width: 100%;
+  }
+}

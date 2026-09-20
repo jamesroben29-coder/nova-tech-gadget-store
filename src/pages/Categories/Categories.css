@@ -1,0 +1,27 @@
+.categories-header {
+   margin-bottom: 40px; 
+   text-align: center; 
+}
+.categories-header .section-subtitle { 
+  max-width: 580px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.grid-categories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 900px){
+   .grid-categories { 
+      grid-template-columns: repeat(2, 1fr); 
+    } 
+}
+
+@media (max-width: 600px){
+  .grid-categories { 
+      grid-template-columns: 1fr;
+    } 
+}
