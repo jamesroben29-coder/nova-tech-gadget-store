@@ -1,56 +1,71 @@
-# NovaTech Gadget Store
+# 🛍️ NovaTech Gadget Store
 
-NovaTech is a responsive React e-commerce demo for browsing premium tech gadgets, filtering products, and completing a mock checkout flow.
+A modern and responsive e-commerce website built with React.js.
 
-## Live demo
+## 🚀 Live Demo
 
-Add your deployed project URL here before publishing.
+[View Live Demo](https://nova-tech-gadget-store.vercel.app/)
 
-## Features
+## 💻 GitHub Repository
 
-- Browse product categories and individual product details
-- Search, sort, and filter products by category
-- Add products to a persistent shopping cart and adjust quantities
-- Complete a mock checkout flow with an order confirmation page
-- Demo sign-up and sign-in state persisted locally
-- Light and dark themes
-- Responsive navigation, layouts, and custom 404 page
+[View Source Code](https://github.com/jamesroben29-coder/nova-tech-gadget-store)
 
-## Built with
+## ✨ Features
 
-- React
-- React Router
+- 🏠 Responsive Home page
+- 🛍️ Product browsing and shopping
+- 🔎 Product search and filtering
+- 📂 Product categories
+- 📦 Product detail page
+- 🛒 Shopping cart
+- 💳 Checkout page
+- 🔐 Sign In and Sign Up pages
+- 🌓 Light / Dark theme
+- 📱 Fully responsive design
+- ❌ 404 Not Found page
+- 📩 Contact page
+
+## 🛠️ Tech Stack
+
+- React.js
 - JavaScript
-- CSS
+- HTML5
+- CSS3
 - Vite
+- React Icons
+- Git & GitHub
+- Vercel
 
-## Run locally
+## 📸 Screenshots
 
-```bash
-npm install
-npm run dev
-```
+### 🏠 Home Page
 
-To create a production build:
+<img width="1896" height="893" alt="NovaTech Home Page" src="https://github.com/user-attachments/assets/f77fc8d9-f44a-40d2-b96b-0b7734c33345" />
 
-```bash
-npm run build
-```
+### 🛍️ Shop Page
 
-## Project structure
+<img width="1907" height="897" alt="NovaTech Shop Page" src="https://github.com/user-attachments/assets/7b04d552-5194-4cef-af99-0803d356355d" />
+
+### 📦 Product Detail
+
+<img width="1892" height="902" alt="NovaTech Product Detail Page" src="https://github.com/user-attachments/assets/74000cc4-21eb-4f76-8184-d7af5c6ce259" />
+
+### 🛒 Shopping Cart
+
+<img width="1901" height="892" alt="NovaTech Shopping Cart" src="https://github.com/user-attachments/assets/eb6d239c-16f5-4c9f-94b5-2facfdeae196" />
+
+### 📂 Category Page
+
+<img width="1608" height="765" alt="NovaTech Category Page" src="https://github.com/user-attachments/assets/949203d7-3ebd-4965-9ab5-872f63230c41" />
+
+## 📂 Project Structure
 
 ```text
 src/
-├── assets/       # Logo and SVG icons
-├── common/       # Shared navigation data
-├── components/   # Reusable UI components
-├── context/      # Cart, theme, and demo-auth state
-├── data/         # Product and category data
-└── pages/        # Route-level pages
-```
-
-## Notes
-
-This is a frontend demo. Product, checkout, and authentication data are stored locally in the browser; no real payments, email delivery, or secure account system are implemented.
-
-Built as part of the Learnex React Mastery Class and extended as a portfolio project.
+├── components/
+├── context/
+├── pages/
+├── data/
+├── style/
+├── App.jsx
+└── main.jsx
