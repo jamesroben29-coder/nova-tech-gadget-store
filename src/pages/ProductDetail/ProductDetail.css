@@ -140,35 +140,42 @@
     border: 1px solid var(--primary);
 }
 
-.pdp-features{
+.pdp-features {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
-.pdp-feature-card{
+.pdp-feature-card {
     background-color: var(--background);
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 12px;
     width: 100%;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 12px;
+    padding: 14px 16px;
 }
 
-.pdp-feature-card .pdp-feature-icon{
-    font-size: 20px;
+.pdp-feature-card .pdp-feature-icon {
+    flex-shrink: 0;
+    font-size: 24px;
+    line-height: 1;
 }
 
-.pdp-feature-card .pdp-feature-title{
+.pdp-feature-card .pdp-feature-title {
+    display: block;
     font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 4px;
 }
 
-.pdp-feature-card .pdp-feature-text{
+.pdp-feature-card .pdp-feature-text {
+    margin: 0;
     font-size: 12px;
+    line-height: 1.5;
     font-weight: 500;
-    letter-spacing: .5px;
+    letter-spacing: 0.2px;
     color: var(--text-secondary);
 }
 
