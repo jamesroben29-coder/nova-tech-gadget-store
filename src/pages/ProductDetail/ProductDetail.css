@@ -10,14 +10,13 @@
     text-align: center;
 }
 
-.pdp-btn{
-   color: var(--primary);
-   padding: 12px 22px;
-   border-radius: 12px;
-   font-weight: 600;
-   transition:
-   box-shadow 0.2s ease,
-   transform 0.2s ease;
+.pdp-btn {
+    padding: 12px 22px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition:
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
 }
 
 .pdp-btn:hover{
