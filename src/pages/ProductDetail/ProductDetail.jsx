@@ -56,15 +56,38 @@ export default function ProductDetail() {
           </div>
 
           <div className="pdp-features">
-            <div className="pdp-feature-card">
-              <span className="pdp-feature-icon" aria-hidden="true">Delivery</span>
-              <div><strong className="pdp-feature-title">Free Express Delivery</strong><p className="pdp-feature-text">In stock, ships within 24 hours</p></div>
-            </div>
-            <div className="pdp-feature-card">
-              <span className="pdp-feature-icon" aria-hidden="true">Warranty</span>
-              <div><strong className="pdp-feature-title">1 Year Warranty</strong><p className="pdp-feature-text">Full coverage manufacturer protection</p></div>
+          <div className="pdp-feature-card">
+            <span className="pdp-feature-icon" aria-hidden="true">
+              🚚
+            </span>
+        
+            <div>
+              <strong className="pdp-feature-title">
+                Free Express Delivery
+              </strong>
+        
+              <p className="pdp-feature-text">
+                In stock, ships within 24 hours
+              </p>
             </div>
           </div>
+        
+          <div className="pdp-feature-card">
+            <span className="pdp-feature-icon" aria-hidden="true">
+              🛡️
+            </span>
+        
+            <div>
+              <strong className="pdp-feature-title">
+                1 Year Warranty
+              </strong>
+        
+              <p className="pdp-feature-text">
+                Full coverage manufacturer protection
+              </p>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </section>
